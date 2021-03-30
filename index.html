@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	
+	<title>Nieufna stronka</title>
+	<!--<meta charset="utf-8" />-->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="Janko" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+	<link type="text/css" href="css/main.css" rel="stylesheet" media="screen,projection" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+
+	<meta property="og:site_name" content="Nieufna stronka" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://janko320000.github.io" />
+	<meta property="og:title" content="janko320000" />
+	<meta property="og:description" content="Ludzom nie można ufać, po prostu nie można ¯\_(ツ)_/¯" />
+	
+	<script src="http://nieufna-stronka.j.pl/site-name.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+	<!--[head-input]-->
+</head>
+<body oncontextmenu="return false" onselectstart="return false" onselect="return false" oncopy="return false"> 
+		
+	<div id="container" class="mainLo">
+		<header class="mainLo nonselect">
+			<a href="https://janko320000.github.io" style="color: white; text-decoration: none;">janko320000</a>
+		</header>
+		<nav class="mainLo nonselect">
+			<ol id="navList" class="mainLo">
+				<li><a href="#"><h4>Inne</h4></a>
+					<ul>
+                        <li class="multiList mainLo"><a href="#">Gry do pobrania</a>
+                            <ol>
+                                <li><a href="https://janko320000.github.io/inne/gb">Game Boy</a></li>
+                                <li><a href="https://janko320000.github.io/inne/gbc">Game Boy Color</a></li>
+                                <li><a href="https://janko320000.github.io/inne/gba">Game Boy Advance</a></li>
+                                <li><a href="https://janko320000.github.io/inne/nds">Nintendo DS</a></li>
+                                <li><a href="https://janko320000.github.io/inne/n3ds">Nintendo 3DS</a></li>
+                            </ol>
+                        </li>
+					</ul>
+				</li><li><a href="#"><h4>Gry</h4></a>
+					<ul>
+                        <li class="multiList mainLo"><a href="#">Snek</a>
+                            <ol>
+                                <li><a href="https://github.com/janko320000/Snek./">Repozytorium</a></li>
+                                <li><a href="https://janko320000.github.io/Snek./">Gra</a></li>
+                            </ol>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="multiList mainLo"><a href="#">TheTris</a>
+                            <ol>
+                                <li><a href="https://github.com/janko320000/TheTris/">Repozytorium</a></li>
+                                <li><a href="https://janko320000.github.io/TheTris/">Gra</a></li>
+                            </ol>
+                        </li>
+                    </ul>
+				</li><li><a href="https://janko320000.github.io/kontakt"><h4>Kontakt</h4></a>
+				</li>
+			</ol>
+		</nav>
+		<article id="mainArticle" class="mainLo">
+			<div style="margin: 0 50px;"><b style="font-size: 19px; line-height: 26px;;">Witaj na mojej stronce!</b><br />
+    Znajdziesz tutaj, mam nadzieję, kilka ciekawych rzeczy.
+    Takich jak np. kilka moich projektów oraz fajne gierki :3</div>
+		</article>
+	</div>
+
+	<script>
+		let nonselect = document.getElementsByClassName("nonselect");
+		for (const elm of nonselect) {
+			elm.onselectstart = function() {return false};
+			elm.ondrag = function() {return false};
+			elm.ondragstart = function() {return false};
+			elm.oncontextmenu = function() {return false};
+		}
+	</script>
+</body>
+</html>
